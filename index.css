@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #111111;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+}
+
+.font-latin {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+}
+
+.poster-dots {
+  background-image: radial-gradient(rgba(17, 17, 17, 0.14) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
